@@ -75,12 +75,32 @@ header {
 }
 #left_box {
     grid-area: left_box;
-    width: 500px;
+    width: 440px;
     text-align: right;
+    padding-right: 40px;
+}
+#left_box h1 {
     color: white;
-    font-family: sans-serif;
-    
+    font-family: sans-serif; 
+    font-size: 72px;
+    margin: 10px 0px;
+}
+#left_box span {
+    color: white;
+    font-family: sans-serif; 
+    font-size: 19px;
+    font-style: italic;
+}
+#left_box p {
+    color: white;
+    font-family: sans-serif; 
+    font-size: 20px;
 }
 #right_box {
     grid-area: right_box;
+    width: 440px;
+    padding-left: 40px;
+}
+#right_box img {
+    width: 100%;
 }
