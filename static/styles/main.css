@@ -79,6 +79,7 @@ header {
     text-align: right;
     color: white;
     font-family: sans-serif;
+    
 }
 #right_box {
     grid-area: right_box;
